@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;family=Open+Sans+Condensed:wght@300&amp;display=swap");
+body {
+    background-image: url("../images/mini.jpg");
+    /* background-repeat: no-repeat-y; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(27, 27, 66);
+}
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #dc143c;
+}
+p {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #333;
+  font-size: 18px;
+}
+li {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: rgb(7, 7, 78);
+}
+a {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(7, 7, 78);
+  font-weight: 900;
+}
+
+img {
+  width: 33%;
+  margin: 2px;
+}
+
+div {
+    width: 33%;
+    height: 300px;
+    border: 2px solid rgb(163, 163, 163);
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    margin: 10px auto;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin: 20px auto;
+
+}
+caption{
+  font-size:25px;
+  font-weight: 600;
+  color: rgb(37, 37, 240)
+}
+
+tr td {
+  border-bottom: 1px solid rgba(203, 255, 83, 0.652);
+  text-align: center;
+  padding: 10px
+}
+
+tr:hover {
+  background-color: rgba(51, 51, 51, 0.501);
+  color: black;
+}
+th {
+  border-bottom: 2px solid rgba(41, 39, 39, 0.809);
+  padding: 10px
+}
+
+/* <!-- SELETORES --> */
+
+.seletores {
+  width: 100%;
+}
+
+.seletores :nth-child(2) {
+  color: blue;
+}
+
+.seletores :first-child {
+  color: yellow;
+}
+.seletores :last-child {
+  color: green;
+}
+
+.seletores :not(:nth-child(4)) {
+  font-weight: bold;
+}
+
+.seletores + p {
+  color: red;
+}
+.seletores2 {
+  width: 80%;
+}
+.seletores2 ~ p {
+  color: red;
+}
+.seletores2 > p {
+  color: violet;
+}
+
+.seletores3 {
+  width: 80%;
+}
+.seletores3 > p:nth-child(even) {
+  color: #dc143c;
+}
+
+.pseudo-elemento-after::after {
+    content: '';
+    width: 150px;
+    height: 3px;
+    background-color: #FFF;       
+    margin: 20px auto 10px;
+    display: block;
+}
+.pseudo-elemento-before::before {
+    content: '';
+    width: 150px;
+    height: 3px;
+    background-color: #dc143c;       
+    margin: 20px auto 10px;
+    display: block;
+}
+
+.pseudo-elemento-selection::selection {
+    background-color: #1f1f68;
+    color: #fff;        
+}
