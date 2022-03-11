@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Traveller - Formularios</title>
+</head>
+
+<body>
+
+    <h3>Formulario</h3>
+    <form action="..." id="dados" name="dados" method="post">
+        <fieldset>
+            <legend>Formulario Exemplo</legend>
+            <p>
+            <p><b>type text</b></p>
+            <label for="user">Usuario: </label>
+            <input type="text" id="user" placeholder="Ex: Castanho Bolinha">
+            </p>
+            <p><b>type text</b> autofocus minlength maxlength required</p>
+            <label for="user">Usuario: </label>
+            <input type="text" id="user" placeholder="Ex: Castanho Bolinha" autofocus minlength="5" maxlength="25"
+                required>
+            </p>
+            <p>
+            <p><b>type password</b></p>
+            <label for="senha">Senha: </label>
+            <input type="password" id="senha" placeholder="Ex: 123456">
+            </p>
+            <p>
+            <p><b>type date</b></p>
+            <label for="data">Data: </label>
+            <input type="date" id="data">
+            </p>
+            <p>
+            <p><b>type time</b></p>
+            <label for="hora">Hora: </label>
+            <input type="time" id="hora">
+            </p>
+            <p>
+            <p><b>type datetime-local</b></p>
+            <label for="horaData">Hora e Data: </label>
+            <input type="datetime-local" id="horaData">
+            </p>
+            <p>
+            <p><b>type week</b></p>
+            <label for="semana">Semana: </label>
+            <input type="week" id="semana">
+            </p>
+            <p>
+            <p><b>type month</b></p>
+            <label for="mes">Mês: </label>
+            <input type="month" id="mes">
+            </p>
+            <p>
+            <p><b>type email</b></p>
+            <label for="email">Email: </label>
+            <input type="email" id="email">
+            </p>
+            <p><b>type search</b></p>
+            <label for="buscar">Buscar: </label>
+            <input type="search" id="buscar">
+            </p>
+            <p><b>type url</b></p>
+            <label for="url">Url: </label>
+            <input type="url" id="url">
+            </p>
+            <p><b>type file</b></p>
+            <label for="file">Arquivo: </label>
+            <input type="file" id="file">
+            </p>
+            <p><b>type number</b></p>
+            <label for="number">Numero: </label>
+            <input type="number" id="number">
+            </p>
+            <p><b>type number</b> min max</p>
+            <label for="number">Numero: </label>
+            <input type="number" id="number" min="10" max="100">
+            </p>
+            <p><b>type range</b></p>
+            <label for="range">Barra: </label>
+            <input type="range" id="range">
+            </p>
+            <p><b>type color</b></p>
+            <label for="color">Cor: </label>
+            <input type="color" id="color">
+            </p>
+            <p><b>type tel</b></p>
+            <label for="tel">Telefone: </label>
+            <input type="tel" id="tel">
+            </p>
+            <p><b>type radio</b></p>
+            <input type="radio" name="radiobutton" id="radio1">
+            <label for="radio1">Opção 1 </label>
+            <input type="radio" name="radiobutton" id="radio2">
+            <label for="radio2">Opção 2 </label>
+            <input type="radio" name="radiobutton" id="radio3">
+            <label for="radio3">Opção 3 </label>
+            <input type="radio" name="radiobutton" id="radio4">
+            <label for="radio4">Opção 4 </label>
+            <input type="radio" name="radiobutton" id="radio5">
+            <label for="radio5">Opção 5 </label>
+            </p>
+            <p><b>type checked</b></p>
+            <input type="checkbox" name="checkedbutton" id="checked1">
+            <label for="checked1">Opção 1 </label>
+            <input type="checkbox" name="checkedbutton" id="checked2">
+            <label for="checked2">Opção 2 </label>
+            <input type="checkbox" name="checkedbutton" id="checked3">
+            <label for="checked3">Opção 3 </label>
+            <input type="checkbox" name="checkedbutton" id="checked4">
+            <label for="checked4">Opção 4 </label>
+            <input type="checkbox" name="checkedbutton" id="checked5">
+            <label for="checked5">Opção 5 </label>
+            </p>
+            <p><b>type select</b></p>
+            <label for="select">Selecione </label>
+            <select neme="select" id="select">
+                <option selected disabled>Selecione</option>
+                <option value="0">Brasil</option>
+                <option value="1">Eua</option>
+                <option value="2">Venezuela</option>
+                <option value="3">Russia</option>
+                <option value="4">Italia</option>
+            </select>
+            </p>
+            <p>
+            <p><b>type list</b></p>
+            <label for="list">Opção 1 </label>
+            <input list="periodos" name="list" id="list">
+            <datalist id="periodos">
+                <option value="0">Manhã</option>
+                <option value="1">Tarde</option>
+                <option value="2">Noite</option>
+                <option value="3">Noite2</option>
+                <option value="4">Noite3</option>
+            </datalist>
+
+            </p>
+
+            <p>
+            <p><b>type textarea</b></p>
+            <label for="textao">Digite seu textão</label>
+            <textarea name="textao" id="textao"></textarea>
+            </p>
+
+            <p>
+                <p>buttons</p>
+                <label for="">submit</label>
+                <button type="submit">Enviar</button>
+                <label for="">reset</label>
+                <button type="submit">Limpar</button>
+                <label for="">button</label>
+                <button type="button">Executar</button>
+            </p>
+        </fieldset>
+        <a href="../index.html">Voltar</a>
+        
+    </form>
+
+</body>
+
+</html>

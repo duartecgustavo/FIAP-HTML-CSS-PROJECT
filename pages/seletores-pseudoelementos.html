@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Seletores e Pseudoelementos</title>
+</head>
+<body>
+    <!-- SELETORES -->
+    <div class="seletores">
+        <p>Seletor first-child</p>
+        <p>Seletor > elementos filhos diretos do selecionado</p>
+        <p>Seletor nth:child() selecionando elemento filhos</p>
+        <p>Seletor :not(:nth-child()) não selecionando algum elemento especifico </p>
+        <p>Seletor last-child() </p>
+    </div>
+    <p>Seletor + elemento posterior ao selecionado</p>
+    <p>posteior2</p>
+    <div class="seletores2">
+        <p>Seletor first-child</p>
+        <p>Seletor > elementos filhos diretos do selecionado</p>
+        <p>Seletor nth:child() selecionando elemento filhos</p>
+        <p>Seletor :not(:nth-child()) não selecionando algum elemento especifico </p>
+        <p>Seletor last-child() </p>
+        <div class="seletores3">
+            <p>é neto da div seletores2</p>
+            <p>é neto da div seletores2</p>
+            <p>é neto da div seletores2</p>
+            <p>é neto da div seletores2</p>
+            <p>é neto da div seletores2</p>
+            <p>é neto da div seletores2</p>
+        </div>
+    </div>
+    <p>Seletor ~ todos os elementos posteirores ao selecionado</p>
+    <p>Seletor ~ todos os elementos posteirores ao selecionado</p>
+    <p>Seletor ~ todos os elementos posteirores ao selecionado</p>
+    <p>Seletor ~ todos os elementos posteirores ao selecionado</p>
+
+    <div class="seletores4">
+        <h2 class="pseudo-elemento-after">pseudo elemento after</h2>
+        <p>pseudoelemtno</p>
+        <p>pseudoelemtno</p>
+        <p>pseudoelemtno</p>
+        <p>pseudoelemtno</p>
+        <p class="pseudo-elemento-before">pseudo elemento before</p>
+        <h2>pseudo elemento selection - selecione a linha com o cursor</h2>
+        <p class="pseudo-elemento-selection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fugit
+            repellat molestiae, adipisci recusandae nihil molestias minima enim vel delectus dolores quod ipsum fugiat
+            sunt accusamus in debitis beatae officia illum? Quasi unde qui alias?</p>
+    </div>
+</body>

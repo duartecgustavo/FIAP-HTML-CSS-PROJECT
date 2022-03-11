@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;family=Open+Sans+Condensed:wght@300&amp;display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/mini.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.div-container {
+  border: 3px solid #800;
+  text-align: center;
+  padding-top: 20px;
+}
+.div-container-display-flex {
+}
+.div-container-flex-direction-row {
+}
+.div-container-flex-direction-row-reverse {
+}
+.div-container-flex-direction-column {
+}
+
+.container_display {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #000;
+  display: flex;
+}
+
+.box-lorem {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #000;
+  margin: 5px;
+  text-align: center;
+}
+
+.container_display_flex-direction-row {
+  display: flex;
+}
+
+.container_display_flex-direction-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container_display_flex-direction-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container_display_flex-direction-wrap-reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.container_display_flex-direction-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_display_flex-align-items-stretch {
+  display: flex;
+  align-items: stretch;
+  height: 200px;
+}
+.container_display_flex-align-items-stretch :nth-child(1) {
+  height: auto;
+}
+.container_display_flex-align-items-stretch :nth-child(2) {
+  height: auto;
+}
+.container_display_flex-align-items-stretch :nth-child(3) {
+  height: auto;
+}
+.container_display_flex-align-items-stretch :nth-child(4) {
+  height: auto;
+}
+.container_display_flex-align-items-stretch :nth-child(5) {
+  height: auto;
+}
+
+.container_display_flex-align-items-basiline {
+  display: flex;
+  align-items: baseline;
+  height: 200px;
+}
+
+.container_display_flex-align-items-basiline :nth-child(1) {
+  width: 20px;
+  height: auto;
+  display: flex;
+}
+.container_display_flex-align-items-basiline :nth-child(2) {
+  width: 20px;
+  height: auto;
+}
+.container_display_flex-align-items-basiline :nth-child(3) {
+  width: 20px;
+  height: auto;
+}
+.container_display_flex-align-items-basiline :nth-child(4) {
+  width: 20px;
+  height: auto;
+}
+.container_display_flex-align-items-basiline :nth-child(5) {
+  width: 20px;
+  height: auto;
+}
+
+.container_display_flex-grow {
+    display: flex
+}
+.container_display_flex-grow :nth-child(1) {
+  width: none;
+  flex-grow: 1;
+  background-color: aqua;
+}
+.container_display_flex-grow :nth-child(2) {
+  width: none;
+  flex-grow: 2;
+  background-color: beige;
+}
+.container_display_flex-grow :nth-child(3) {
+  width: none;
+  flex-grow: 3;
+  background-color: #090;
+}
+.container_display_flex-grow :nth-child(4) {
+  width: none;
+  flex-grow: 2;
+  background-color: beige;
+}
+.container_display_flex-grow :nth-child(5) {
+  width: none;
+  flex-grow: 1;
+  background-color: aqua;
+}
+
+.container_display container_display_flex-grow-basis {
+    display: flex
+}
+.container_display_flex-grow-basis :nth-child(1) {
+  width: none;
+  flex-grow: 1;
+  background-color: aqua;
+}
+.container_display_flex-grow-basis :nth-child(2) {
+  width: none;
+  flex-basis: 100px;
+  background-color: beige;
+}
+.container_display_flex-grow-basis :nth-child(3) {
+  width: none;
+  flex-grow: 3;
+  background-color: #090;
+}
+.container_display_flex-grow-basis :nth-child(4) {
+  width: none;
+  flex-basis: 250px;
+  background-color: beige;
+}
+.container_display_flex-grow-basis :nth-child(5) {
+  width: none;
+  flex-grow: 2;
+  background-color: aqua;
+}
+.container_display container_display_flex-order {
+    display: flex
+}
+.container_display_flex-order :nth-child(1) {
+  width: none;
+  flex-grow: 1;
+  background-color: aqua;
+  order: 3;
+}
+.container_display_flex-order :nth-child(2) {
+    width: none;
+    flex-basis: 100px;
+    background-color: beige;
+    order: 2;
+}
+.container_display_flex-order :nth-child(3) {
+    width: none;
+    flex-grow: 3;
+    background-color: #090;
+    order: 1;
+}
+.container_display_flex-order :nth-child(4) {
+    width: none;
+    flex-basis: 250px;
+    background-color: beige;
+    order: 5;
+}
+.container_display_flex-order :nth-child(5) {
+    width: none;
+    flex-grow: 2;
+    background-color: aqua;
+    order: 4;
+}
