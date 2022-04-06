@@ -1,0 +1,62 @@
+/* <!-- SELETORES --> */
+
+.seletores {
+    width: 100%;
+  }
+  
+  .seletores :nth-child(2) {
+    color: blue;
+  }
+  
+  .seletores :first-child {
+    color: yellow;
+  }
+  .seletores :last-child {
+    color: green;
+  }
+  
+  .seletores :not(:nth-child(4)) {
+    font-weight: bold;
+  }
+  
+  .seletores + p {
+    color: red;
+  }
+  .seletores2 {
+    width: 80%;
+  }
+  .seletores2 ~ p {
+    color: red;
+  }
+  .seletores2 > p {
+    color: violet;
+  }
+  
+  .seletores3 {
+    width: 80%;
+  }
+  .seletores3 > p:nth-child(even) {
+    color: #dc143c;
+  }
+  
+  .pseudo-elemento-after::after {
+    content: "";
+    width: 150px;
+    height: 3px;
+    background-color: #fff;
+    margin: 20px auto 10px;
+    display: block;
+  }
+  .pseudo-elemento-before::before {
+    content: "";
+    width: 150px;
+    height: 3px;
+    background-color: #dc143c;
+    margin: 20px auto 10px;
+    display: block;
+  }
+  
+  .pseudo-elemento-selection::selection {
+    background-color: #1f1f68;
+    color: #fff;
+  }
